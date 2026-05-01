@@ -1,1 +1,8 @@
-dataset/creditcard.csv
+data/creditcard.csv
+data/creditcard_2023.csv
+reports/ProjectReport.md
+__pycache__/
+.pytest_cache/
+outputs/
+*.pkl
+*.joblib

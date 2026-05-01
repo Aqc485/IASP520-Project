@@ -16,7 +16,7 @@ Because fraudulent transactions are rare, this project compares a simple majorit
 ```text
 IASP520 Project/
   data/
-    .gitkeep
+    creditcard.csv
   src/
     preprocess.py
     models.py

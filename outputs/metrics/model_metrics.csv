@@ -1,0 +1,5 @@
+model,accuracy,precision,recall,f1,true_negatives,false_positives,false_negatives,true_positives,model_path,confusion_matrix_plot
+dummy_majority,0.9982795547909132,0.0,0.0,0.0,56864,0,98,0,outputs\models\dummy_majority.joblib,outputs\plots\dummy_majority_confusion_matrix.png
+logistic_regression,0.9755275446789088,0.06097560975609756,0.9183673469387755,0.11435832274459974,55478,1386,8,90,outputs\models\logistic_regression.joblib,outputs\plots\logistic_regression_confusion_matrix.png
+decision_tree,0.9806011024893789,0.06928999144568007,0.826530612244898,0.12786108918705605,55776,1088,17,81,outputs\models\decision_tree.joblib,outputs\plots\decision_tree_confusion_matrix.png
+random_forest,0.999420666409185,0.8421052631578947,0.8163265306122449,0.8290155440414507,56849,15,18,80,outputs\models\random_forest.joblib,outputs\plots\random_forest_confusion_matrix.png

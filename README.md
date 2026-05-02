@@ -29,8 +29,10 @@ IASP520 Project/
     test_preprocess.py
     test_modeling.py
     test_evaluation.py
+  reports/
+    model_metrics.csv
+    feature_importance.csv
   outputs/
-    metrics/
     plots/
     models/
   README.md
@@ -113,7 +115,7 @@ Class imbalance is handled with class weights:
 python src/evaluate.py
 ```
 
-4. Review generated metrics and plots in `outputs/`.
+4. Review metrics in `reports/` and plots in `outputs/plots/`.
 
 Expected main result pattern:
 
@@ -126,13 +128,13 @@ Random Forest F1:       0.829
 
 Random Forest is the strongest model so far based on F1-score.
 
-## Generated Outputs
+## Project Outputs
 
 Metrics:
 
 ```text
-outputs/metrics/model_metrics.csv
-outputs/metrics/feature_importance.csv
+reports/model_metrics.csv
+reports/feature_importance.csv
 ```
 
 Plots:
@@ -157,7 +159,7 @@ outputs/models/decision_tree.joblib
 outputs/models/random_forest.joblib
 ```
 
-Note: generated outputs may be ignored by Git depending on submission size requirements. They can be reproduced by running `python src/evaluate.py`.
+Note: output files can be reproduced by running `python src/evaluate.py`.
 
 ## Tests
 

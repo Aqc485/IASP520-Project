@@ -19,8 +19,8 @@ from preprocess import load_dataset, TARGET_COLUMN
 from train import train_all_models
 
 
-METRICS_PATH = Path("outputs/metrics/model_metrics.csv")
-FEATURE_IMPORTANCE_PATH = Path("outputs/metrics/feature_importance.csv")
+METRICS_PATH = Path("reports/model_metrics.csv")
+FEATURE_IMPORTANCE_PATH = Path("reports/feature_importance.csv")
 
 
 def evaluate_model(model_name: str, model, X_test, y_test) -> dict:
